@@ -3,17 +3,18 @@
 > Oh-My-ZSH theme based on hyper terminal default theme 😎 
 
 
-### Screenshot
+## Screenshot
 
 > It requires a change on your terminal. Change your cursor color to magenta
 
-#### Inside a folder without git configuration
 
-<img width="682" alt="screen shot 2018-07-29 at 10 44 32 pm" src="https://user-images.githubusercontent.com/1252570/43366463-d48d9f68-9381-11e8-9871-9166c6c29da6.png">
+### Inside a folder without git configuration
 
-#### Inside a folder with git configuration
+<img width="682" alt="Hyper Oh-My-ZSH - Inside a folder without git configuration" src="https://user-images.githubusercontent.com/1252570/43366463-d48d9f68-9381-11e8-9871-9166c6c29da6.png">
 
-<img width="682" alt="screen shot 2018-07-29 at 10 59 30 pm" src="https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png">
+### Inside a folder with git configuration
+
+<img width="682" alt="Hyper Oh-My-ZSH - Inside a folder with git configuration" src="https://user-images.githubusercontent.com/1252570/43366555-1a7e5eb2-9383-11e8-89d5-98b255968bdb.png">
 
 
 ## About the theme
@@ -41,6 +42,7 @@ mkdir -p $ZSH_CUSTOM/themes && wget -O $ZSH_CUSTOM/themes/hyper-oh-my-zsh.zsh-th
 
 After that, open your `~/.zshrc` file in your prefered code/text editor and set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyper-oh-my-zsh"` `ZSH_THEME="current_theme"` to `ZSH_THEME="hyper-oh-my-zsh"`. And when you reload your command line it's done! 👏👏👏
 
+## Prompt configuration
 
 ### Git Status Indicators
 
