@@ -1,7 +1,6 @@
 # Promp text information
-PROMPT='%{$fg[cyan]%}%c $(git_prompt_info)%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '
-
-local _return_status="%{$fg[red]%}%(?..⍉ )%{$reset_color%}"
+PROMPT='%{$fg_bold[cyan]%}%c $(git_prompt_info)%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '
+local _return_status="%{$fg_bold[red]%}%(?..⍉ )%{$reset_color%}"
 
 # Git Status Indicators configuration
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$fg[yellow]%}"
