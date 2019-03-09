@@ -40,7 +40,7 @@ To install this theme, open your terminal and paste this command into your comma
 mkdir -p $ZSH_CUSTOM/themes && wget -O $ZSH_CUSTOM/themes/hyper-oh-my-zsh.zsh-theme https://raw.githubusercontent.com/willmendesneto/hyper-oh-my-zsh/master/hyper-oh-my-zsh.zsh-theme
 ```
 
-After that, open your `~/.zshrc` file in your prefered code/text editor and set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyper-oh-my-zsh"` `ZSH_THEME="current_theme"` to `ZSH_THEME="hyper-oh-my-zsh"`. And when you reload your command line it's done! 👏👏👏
+After that, open your `~/.zshrc` file in your prefered code/text editor and set `ZSH_THEME="current_theme"` to `ZSH_THEME="hyper-oh-my-zsh"`. And when you reload your command line it's done! 👏👏👏
 
 ## Prompt configuration
 
